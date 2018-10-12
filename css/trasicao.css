@@ -1,0 +1,26 @@
+*{
+	 margin:0;
+	 padding:0;
+	 box-sizing: border-box;
+}
+
+h1 {
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: tomato;
+}
+
+.box {
+	width: 140px;
+	height: 500px;
+	background-color: yellow;
+	transition: 2s;
+	/* transition-delay: 1s; */
+	transition-timing-function: ease-in;
+}
+
+.box:hover {
+	width: 600px;
+	height: 2px;
+	background-color: brown;
+}

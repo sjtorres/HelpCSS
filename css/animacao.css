@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1 {
+   font-weight: lighter;
+   text-transform: uppercase;
+   color: tomato;
+}
+
+.box {
+   width: 300px;
+   height: 5px;
+   position: relative;
+   background-color: yellow;
+   animation-name: linha_h1;
+   animation-duration: 5s;
+   animation-iteration-count: infinite
+}
+
+@keyframes linha_h1 {
+    0% {
+        top: 0;
+        width: 300px;
+        background-color: rgb(255, 196, 0);
+    }
+    50% {
+        top: 0;
+        width: 10px;
+        background-color: rgb(255, 115, 0);
+    }
+    100% {
+        top: 0;
+        width: 300px;
+        background-color: rgb(255, 196, 0);
+    }
+}

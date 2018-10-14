@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+i {
+    margin: 10px;
+}
+
+.box {
+    width: 100%;
+    padding: 30px 2%;
+    background-color: rgb(220, 220, 220);
+    position: relative;
+}
+
+.box p {
+    color: #444;
+    border-bottom: 1px solid green;
+    font-size: 13px;
+}

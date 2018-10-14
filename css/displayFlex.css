@@ -56,7 +56,7 @@ i {
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center
+    align-items: center;
 }
 .item {
     flex-basis:auto;
